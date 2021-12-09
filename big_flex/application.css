@@ -1,0 +1,19 @@
+.super-flex-wrap {
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-wrap {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.flex-item {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}

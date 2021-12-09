@@ -1,0 +1,35 @@
+.flex-wrap {
+    display: flex;
+    flex-flow: column;
+}
+.flex-item {
+    display: flex;
+    height: 50px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: space-around;
+}
+@media (max-width: 550px) {
+    .flex-item.block-three {
+        width: 25%;
+    }
+    .flex-item.block-six {
+        width: 50%;
+    }
+}
+@media (min-width: 551px) and (max-width: 700px) {
+    .flex-item.double-lol-two {
+        width: 50%;
+    }
+    .flex-item.double-lol {
+        width: 25%;
+    }
+}
+@media (min-width: 701px) {
+    .flex-item.lol {
+        width: 25%;
+    }
+    .flex-item.lol-two {
+        width: 50%;
+    }
+}

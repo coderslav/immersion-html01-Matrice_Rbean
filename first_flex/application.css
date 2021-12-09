@@ -1,0 +1,9 @@
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-item {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
